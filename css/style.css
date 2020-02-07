@@ -1,0 +1,41 @@
+html{
+  font-size: 16px;
+  font-family: "HelveticaNeueCyr", Arial, sans-serif;
+}
+.logo{
+  width: 20rem;
+  height: 20rem;
+  background: #F8CA00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo_color_black{
+	background: #333;
+}
+.logo_color_white{
+	background: #fff;
+}
+
+.logo-text{
+  color: #333;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 500;
+}
+.logo-text:before, .logo-text:after{
+  content: '';
+  width: 3.5rem;
+  height: 6px;
+  background: #333;
+  border-radius: 5px;
+  display: flex;
+}
+.logo-text_color_yellow{
+	color: #F8CA00;
+}
+.logo-text_color_yellow:before, .logo-text_color_yellow:after{
+  background: #F8CA00;
+}
